@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Bonsoir2 Nico
 Ajout Didier
 Ajout Thomas
 Ajout Elena
 Ajout Estrella
-=======
-Bonsoir2 Nico
->>>>>>> parent of 3f0ad9a... update3
-=======
-Bonsoir2 Nico
->>>>>>> parent of 3f0ad9a... update3
-=======
-Bonsoir2 Nico
->>>>>>> parent of 3f0ad9a... update3
+
