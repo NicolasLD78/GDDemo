@@ -1,0 +1,15 @@
+{
+   "configurationProfiles": {
+      "radParamsCombinations":[
+         {
+            "@id": "baseRadParams",
+            "itf::ERadParamIndexL2PS::rdL1ItfVersion": 12,
+            "itf::ERadParamIndexL2PS::rdEnablePdcchGrants": 1,
+            "itf::ERadParamIndexL2PS::rdUlAlwaysScheduled": 1,
+            "itf::ERadParamIndexL2PS::rdEnableUlDynTransmissionScheme": 0,
+            "itf::ERadParamIndexL2PS::rdHARQDisabled": 1,
+            "itf::ERadParamIndexL2PS::rdEnable679A": 0
+         }
+      ]
+   }
+}

@@ -1,0 +1,55 @@
+{
+    "configurationProfiles": {
+        "@extends": [
+        	"json/common/baseFiles/baseCells.json",
+        	"json/common/baseFiles/baseRadParams.json"
+        ],
+        "gnb": [
+            {
+                "@id": "baseGnb",
+                "cellGroupList": [
+                    "@cellGroups/baseCellGroup"
+                ],
+                "actFdmScheduling": false,
+                "actGnbInitRlf": true,
+                "rxScalingFactor": -1058,
+                "dlTdPrio": {
+                    "prioDlRachMsg2": 99,
+                    "prioDlHarqTransMsg4": 96,
+                    "prioDlHarqRetransSrb1": 93,
+                    "prioDlHarqRetransSrb2": 90,
+                    "prioDlHarqRetransSrb3": 92,
+                    "prioDlHarqRetransDrb": 80,
+                    "prioDlMacCe": 70,
+                    "prioDlSrb1Traffic": 60,
+                    "prioDlSrb2Traffic": 50,
+                    "prioDlSrb3Traffic": 55,
+                    "prioDlDrbTraffic": 40,
+                    "prioDlCsi": 35,
+                    "prioDlBsiSr": 30
+                },
+                "ulTdPrio": {
+                    "prioUlRachMsg3": 90,
+                    "prioUlContentResGrant": 85,
+                    "prioUlHarqRetransRach": 80,
+                    "prioUlHarqRetransSrb": 70,
+                    "prioUlHarqRetransDrb": 60,
+                    "prioUlSrResp": 50,
+                    "prioUlSrbTraffic": 40,
+                    "prioUlDrbTraffic": 30,
+                    "prioUlProactSched": 20,
+                    "prioUlTaGrant": 30
+                },
+                "gtpuManagementDscp": 0,
+                "bufferedUlActive": false,
+                "radParams": [
+                    "@radParamsCombinations/baseRadParams"
+                ],
+                "poolIds": {
+                    "l2RtPoolId": 0,
+                    "l2NrtPoolId": 0
+                }
+            }
+        ]
+    }
+}

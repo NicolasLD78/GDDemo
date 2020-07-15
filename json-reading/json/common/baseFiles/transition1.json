@@ -1,0 +1,14 @@
+{
+    "configurationProfiles": {
+      "@extends": [
+        "json/common/baseFiles/transition2.json",
+        "json/common/baseFiles/baseGnb.json"
+      ],
+      "system": [
+        {
+          "@id": "baseSystem",
+          "@extends": "@system/essai0"
+        }
+      ]
+    }
+  }

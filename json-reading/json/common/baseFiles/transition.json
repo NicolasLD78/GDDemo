@@ -1,0 +1,13 @@
+{
+    "configurationProfiles": {
+      "@extends": [
+        "json/common/baseFiles/transition1.json"
+      ],
+      "system": [
+        {
+          "@id": "aging30secSystem",
+          "@extends": "@system/essai0"
+        }
+      ]
+    }
+  }

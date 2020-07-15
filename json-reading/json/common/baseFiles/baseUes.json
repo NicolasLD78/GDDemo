@@ -1,0 +1,557 @@
+{
+    "configurationProfiles": {
+        "ues": [
+            {
+                "@id": "baseUe",
+                "ueIdDu": 0,
+                "cRnti": 0,
+                "timeAlignmentTimerDedicated": 0,
+                "actTimeAlignExtension": false,
+                "actEnhancedLinkAdaptation": false,
+                "ueAddCause": 0,
+                "sCellActivationMethod": 0,
+                "numberOfDrbs": 0,
+                "numOfCells": 1,
+                "numberOfSrbs": 1,
+                "simultaneousCsiSr": true,
+                "numOfperSrConfig": 0,
+                "p0NominalPusch": 0,
+                "hasCookie": false,
+                "cookie": 0,
+                "alpha": 0,
+                "mcsDeactSCellDl": 1,
+                "pathlossActSCellDl": 150,
+                "mcsDeactSCellUl": 1,
+                "pathlossActSCellUl": 150,
+                "preambleCfg": {
+                    "sfnForSending": 0,
+                    "slotForSending": 79,
+                    "targetSubcellId": 0,
+                    "preamble": {
+                        "prachPreambleIndex": 0,
+                        "initialTa": 0,
+                        "peakMetric": 0.750000,
+                        "prachPreambleTimeOccasion": 0,
+                        "prachPreambleFreqOccasion": 0
+                    }
+                },
+                "puschConfig": {
+                    "enableUlPtrs": false,
+                    "resourceAllocation": 0,
+                    "dmrsAdditionalPosition": 0
+                },
+                "srCfgs": [
+                ],
+                "ueCapability": {
+                    "maxNumOfDlLayers": 1,
+                    "maxNumOfUlLayers": 2,
+                    "puschTransCoherence": 2,
+                    "twoFlDmrs": "BITSET:0x0",
+                    "maxDataRateDl": 4294967295,
+                    "maxDataRateUl": 4294967295,
+                    "isPi2BpskCapable": false
+                },
+                "pucchConfig": {
+                    "numOfPucchResourcesSet0": 1,
+                    "pucchResourcesSet0": [
+                    ],
+                    "pucchFormatConfigF2": {
+                        "simultaneousHarqAckCsi": false,
+                        "maxCodeRate": 0
+                    },
+                    "pucchFormatConfigF3": {
+                        "simultaneousHarqAckCsi": false,
+                        "maxCodeRate": 0,
+                        "pi2BPSK": false
+                    },
+                    "numOfPucchResourceSet": 1,
+                    "pucchResourceSet": [
+                    ]
+                },
+                "pdschConfig": {
+                    "enableDlPtrs": false,
+                    "mcsTable": 0,
+                    "dl256QamPowerBackOff": 0,
+                    "numOfHarqProcessesForPdsch": 16,
+                    "isPrbBundlingTypeStaticBundling": true,
+                    "dmrsAdditionalPosition": 0,
+                    "beamGroupSize": 32,
+                    "pdschTimeDomainList": [
+                    ]
+                },
+                "cfraSsbResource": [
+                ],
+                "isCfraSsbResourceActivated": false,
+                "sgNbResCoordinationInfo": {
+                    "isUlTdmPatternPresent": false,
+                    "resBitmap": "BITSET:0x0",
+                    "ulTdmBitmapLen": 0
+                },
+                "actAperCsi": false,
+                "uciOnPuschScaling": 3,
+                "SCellListToStop": [
+                ],
+                "callType": 2,
+                "beamGroupSizeLessThanSSB": false,
+                "actCoverageNonCoherentUes": false,
+                "servingCellCfgs": [
+                ],
+                "srbs": [
+                    {
+                        "logicalChannelId": 1,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 200,
+                            "maxBytesToUpdate": 300,
+                            "minDelayInTtis": 500,
+                            "maxDelayInTtis": 500
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 200,
+                            "maxBytesToUpdate": 300,
+                            "minDelayInTtis": 500,
+                            "maxDelayInTtis": 500
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    }
+                ],
+                "drbs": [
+                    {
+                        "logicalChannelId": 4,
+                        "logicalChannelGrp": 2,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    },
+                    {
+                        "logicalChannelId": 255,
+                        "logicalChannelGrp": 0,
+                        "priority": 0,
+                        "bucketSizeDuration": 50,
+                        "prioritisedBitRate": 0,
+                        "dlBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "ulBufferConfig": {
+                            "minBytesToUpdate": 0,
+                            "maxBytesToUpdate": 0,
+                            "minDelayInTtis": 0,
+                            "maxDelayInTtis": 0
+                        },
+                        "minThFlowCtrl": 1,
+                        "schedulWeight": 1,
+                        "bearerIndex": 0,
+                        "psCtrlRlStatusClientAddress": 0,
+                        "bearerGroupId": 0,
+                        "qosId": 0
+                    }
+                ],
+                "isUeMimoFixedRank1": false
+            }
+        ]
+    }
+}

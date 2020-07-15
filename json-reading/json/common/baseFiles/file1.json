@@ -1,0 +1,46 @@
+{
+    "configurationProfiles": {
+       "@extends": [
+          "json/common/baseFiles/transition.json",
+          "json/common/baseFiles/baseCells.json"
+       ],
+       "system": [
+          {
+             "@id": "aging30secSystem",
+             "@extends": "@system/essai0"
+          },
+          {
+             "@id": "aging1hourSystem",
+             "@extends": "@system/baseSystem"
+          }
+       ],
+       "cells": [
+          {
+             "@id": "Cell0",
+             "@extends": "@cells/baseCell"
+          },
+          {
+             "@id": "Cell1",
+             "@extends": "@cells/Cell0"
+          },
+          {
+             "@id": "Cell2",
+             "@extends": "@cells/Cell0"
+          }
+       ],
+       "ues": [
+          {
+             "@id": "defaultBaseUe",
+             "@extends": "@ues/baseUe"
+          },
+          {
+             "@id": "uesOnSubcell0",
+             "@extends": "@ues/defaultBaseUe"
+          },
+          {
+             "@id": "uesOnSubcell0_8CC",
+             "@extends": "@ues/uesOnSubcell0"
+          }
+       ]
+    }
+ }

@@ -1,0 +1,11 @@
+{
+    "configurationProfiles": {
+        "system": [
+            {
+                "@id": "baseSystem",
+                "dataTransmissionDurationInUs": 1250000,
+                "isPucchReceiveRespHarqDEnabled": false
+            }
+        ]
+    }
+}
